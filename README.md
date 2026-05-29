@@ -19,7 +19,7 @@
 <!-- /vscode-markdown-toc --><!-- vscode-markdown-toc -->
 
 
-# [MSGAI25] Modeling and Scaling Generative AI Systems <!-- omit in toc -->
+# [MSGAI26] Modeling and Scaling Generative AI Systems <!-- omit in toc -->
 
 This repository contains the materials of the **MSc Modeling and Scaling for Generative AI systems** course running in fall 2025 at UNINE. This is part of BeNeFri Master program.
 
@@ -116,13 +116,13 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 **Week**|**Lecture Topic**|**Lab Topic**|**Assignment Due**
 :-----|:-----|:-----|:-----
-Week 1 (Sep 15) | Introduction on Generative AI (lecture 1)| Diffusion model (lecture 2)
-Week 2 (Sep 22) | Holiday - No class| Holiday- No Lab
-Week 3 (Sep 29) | Lab setup | Diffusion models (DDPM)
-Week 4 (Oct 6) | VAE and GANs | Diffusion models (DDIM)| 
-Week 5 (Oct 13) | LLM Models and Architecture| HW1 (DDIM and Tabular Diffusion) | HW1
+Week 1 (Sep 15) | Introduction on Generative AI| No-Lab
+Week 2 (Sep 22) | Diffusion model| Diffusion models (DDPM)
+Week 3 (Sep 29) | VAE and GANs | VAE
+Week 4 (Oct 6) | Introduction to LLM | HW1 (DDIM and Tabular Diffusion)  | HW1
+Week 5 (Oct 13) | LLM Models and Transformers | Prompt engieering|
 Week 6 (Oct 20) | Model Pretrain - Alignment | Transformers |Project proposal
-Week 7 (Oct 27) | Model Postraining and Reasoning |Prompt engineering|
+Week 7 (Oct 27) | Model Postraining and Reasoning |Prompt engineering| 
 Week 8 (Nov 3 | Model Editing and Merging | Q/A on H2 |
 Week 9 (Nov 10) | Model Evaluation and Robustness  | No Lab | HW2
 Week 10 (Nov 17) | DTMC | Job generator | Project midterm
