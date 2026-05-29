@@ -72,7 +72,7 @@ Lydia is the responsible instructors of this course and can be reached at **lydi
 
 ## 5. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
 
-This course has no final exam, instead the grade is largely determined through three components. This course adopts a continious evaluation method. You need to r** eceive more than 55%** of each homework to do the final project. 
+This course has no final exam, instead the grade is largely determined through three components. This course adopts a continious evaluation method. You need to ** receive more than 55%** of each homework to do the final project. 
 
 1. Homework (30%): 3 individual homework due in week 5, 9, 12. Each homework accounts 10  of the grade and cover 3-4 weeks material. All homework will be released at the beginning of the semester.
 
