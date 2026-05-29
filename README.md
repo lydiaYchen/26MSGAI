@@ -94,7 +94,7 @@ Students are given additional 48 hours grace period for late submission and will
 ###  5.2. <a name='Groupprojects'></a>Group projects
 <!-- 7 predefined project topics: evaluating the systems of 
 -->
-There are different aspects of performance  on modeling and optimizing the executions of deep neural network jobs. In this project, you will play with benchmarks that emulate the training jobs of deep neural networks on top of Spark platform - one of the most popular platform. You can build a model to predict the performance such jobs, to optimize their response times through resource allocations and scheduling, and to test the dependability of such a cluster against malicious attacks. You will do this project in a group with 1-2 other peers.
+There are different aspects of performance  on modeling and optimizing the executions of deep neural network jobs. In this project, you will play with benchmarks that emulate the training jobs of deep neural networks on top of Spark platform - one of the most popular platform. You can build a model to predict the performance such jobs, to optimize their response times through resource allocations and scheduling, and to test the dependability of such a cluster against malicious attacks. You will do this project in a group with 1-2 other peers. There are two mandatory but not graded mile stones, i.e., proposal and midterm meeting. Fulfilling them is a must to receive a pass grade.  
 
 - Group size: 1-2 students
 - Schedule: 
