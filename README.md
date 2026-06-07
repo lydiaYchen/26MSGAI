@@ -74,8 +74,8 @@ Lydia is the responsible instructors of this course and can be reached at **lydi
 
 This course has no final exam, instead the grade is largely determined through three components. This course adopts a continious evaluation method. You need to ** receive more than 55%** of each homework to do the final project. 
 
-<--! 1. Homework (30%): 3 individual homework due in week 5, 9, 12. Each homework accounts 10  of the grade and cover 3-4 weeks material. All homework will be released at the beginning of the semester.
--->
+<!-- 1. Homework (30%): 3 individual homework due in week 5, 9, 12. Each homework accounts 10  of the grade and cover 3-4 weeks material. All homework will be released at the beginning of the semester. -->
+
 1. Quiz (30%): 3 quizzes in week 4, 9 and 12.  Each homework accounts 10  of the grade and cover 3-5 weeks material, depending on the subject. 
 
 2. Group project (70%): group project report (60%) and presentation (10%). There will be topics of modeling response times, configuring, dependability, scheduling design. There will be an initial proposal in week 6, interim discussion with each team in week 10. The final report will be due in week 13, and 20 minutes presentation in week 9 as well.
@@ -84,7 +84,7 @@ This course has no final exam, instead the grade is largely determined through t
 **All assessment items (homework, and projects reports) have to be submitted via ILIAS.**
 
 
-<--! ###  5.1. <a name='Homework'></a>Homework
+<!-- ###  5.1. <a name='Homework'></a>Homework
 - Homework 1: due in week 5 
 - Homework 2: due in week 9
 - Homework 3: due in week 12
