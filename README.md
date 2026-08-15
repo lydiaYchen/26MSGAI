@@ -1,5 +1,5 @@
 
-:warning: **I am still developing the course content. The content will be only be finalized by the end of the first week of the semester.**
+:warning: **We are making significant changes to the evaluation of the course, compared to the previous year. The content will be only be finalized by the end of the first week of the semester.**
 
 <!-- vscode-markdown-toc -->
 * 1. [Important links](#Importantlinks)
@@ -21,7 +21,9 @@
 
 # [MSGAI26] Modeling and Scaling Generative AI Systems <!-- omit in toc -->
 
-This repository contains the materials of the **MSc Modeling and Scaling for Generative AI systems** course running in fall 2025 at UNINE. This is part of BeNeFri Master program.
+This repository contains the materials of the **MSc Modeling and Scaling for Generative AI systems** course running in fall 2026 at UNINE. This is part of BeNeFri Master program.
+
+
 
 
 ##  1. <a name='Importantlinks'></a>Important links
@@ -33,16 +35,20 @@ This repository contains the materials of the **MSc Modeling and Scaling for Gen
 ##  2. <a name='Coursedescription'></a>Course description
 
 
-Todays machine learning systems become the backbone technology for our daily life.  Generative AI (GAI) systems, such as language models and diffusion models, are widely used to generate texts, images, videos, and tables. It is challenging to design and run the inference of GAI system that guarantee users’ performance requirements, e.g., latency constraint, in a resource efficient way. Various quantitative methods are applied to capture such complex system dynamics and predict metrics of interests, from the designing phase of the systems to the runtime performance, e.g., job response times and system anomaly.  To optimize the performance of GAI  systems, a deep understanding on those methods and their applications on the system design are essential. 
-<!-- Having practical hand-on experience on designing experiments, deriving models, and validating results with benchmark systems will prepare students to tackle challenges of real systems. -->
+Today's machine learning systems have become the backbone technology of our daily lives. Generative AI (GAI) systems, such as language models and diffusion models, are widely used to generate text, images, videos, and tables. Designing and running GAI systems that meet users’ performance requirements, such as latency and quality constraints, while using computational resources efficiently is challenging. To build effective GAI applications, it is essential to understand the underlying model architectures and how different components contribute to their capabilities and limitations. Equally important is knowing how to provide the right context and instructions to a model, and how to fine-tune models to adapt them to specific applications and tasks. Once a GAI application is developed, its inference process can be further optimized through techniques that improve the speed, efficiency, and quality of generation.
+
+The goal of this course is therefore to provide students with both the foundations and practical skills to build interesting GAI applications and optimize their performance. Through hands-on development and experimentation, students will learn how to select and understand appropriate GAI models, effectively use context, fine-tune models for specific applications, and apply inference-time and system-level optimization techniques.
+
 
 Course topics include
-- Generative adversarial networks
 - Diffusion models
-- Large language models
-- Design of experiments and statistical tests 
-- Operational laws and queueing methods for modeling GAI systems
-- Scheduling and load balancing for GAI systems
+- Variational Encoders and Generative Adversarial Networks
+- Large Language Models (LLM) and Transformers
+- Supervised Fine-tuning for LLM
+- Reinforcement Learning for LLM
+- Context Engineering
+- Inference-time Compute for LLM
+- KV Cache and Positional Embedding
 
 
 
@@ -50,7 +56,7 @@ Course topics include
 
 
 
-##  3. <a name='Courseteam'></a>Course team
+##  3.👩‍🏫👨‍🏫 <a name='Courseteam'></a>Course team
 
 This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/)  The course team is composed of a number of PhDs  who support the course through guest lectures and project supervision and a TA who focuses on the grading of homework. 
 
@@ -63,42 +69,45 @@ Lydia is the responsible instructors of this course and can be reached at **lydi
 
 
 
-##  4. <a name='Learningobjectives'></a>Learning objectives
-- LO1. Understanding the training and sampling of generative models, namely diffusion and language models 
-- LO2. Design full/fractional factorial experiments for multi-variate regression analysis, e.g., finding critical parameters for GAI systems
-- LO3 Apply queueing theory to analyse and predict the run-time performance of applications, e.g., the average response times of on-line GAI sampling service
-- LO4. Develop resource management policies for GAI systems and validate them on real computing systems
+##  4. 🏆 <a name='Learningobjectives'></a>Learning objectives
+- LO1. Understand the architectures, training, and inference of modern generative models, including diffusion models, variational autoencoders, GANs, and large language models.
+- LO2. Develop GAI applications by selecting appropriate models and effectively using context engineering, prompting, and other techniques to adapt models to specific applications.
+- LO3. Fine-tune generative models for application-specific tasks and evaluate their performance using appropriate quality and efficiency metrics.
+- LO4. Optimize the inference of GAI applications using techniques such as inference-time compute, KV caching, and positional embeddings, and evaluate the resulting performance on real computing systems.
+
+## 5. ⏱️ <a name='Expecation'></a> Workload and Expectations
+
+This course covers many exciting and rapidly evolving topics in AI. As these topics build on a range of existing concepts in machine learning and deep learning, the course can be demanding. Students should expect to spend an average of **4–6 hours per week** on this course, including lectures, labs, and independent study. Students without a solid background in machine learning can still take this course, but should be prepared to make a **significant additional effort to catch up with the required background**. In our experience, students who lack the necessary background may find it challenging to keep up with the course and its hands-on exercises.
+
+At the same time, the effort can be highly rewarding. A well-executed project can develop into a successful conference publication, provide a strong foundation for a master's thesis, or serve as a strong basis for an internship. We have close collaborations with industry, and successful projects may provide opportunities to connect with our industry partners. We have several examples of students who have taken their course projects further into publications, theses, and internships, and we are happy to share these examples with the class.
 
 
-## 5. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
+## 6. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
 
-This course has no final exam, instead the grade is largely determined through three components. This course adopts a continious evaluation method. You need to ** receive more than 55%** of each homework to do the final project. 
+This course has no final exam; instead, the grade is largely determined through continuous evaluation. You need to **receive more than 55% on each quiz** to be eligible for the final project.
 
-<!-- 1. Homework (30%): 3 individual homework due in week 5, 9, 12. Each homework accounts 10  of the grade and cover 3-4 weeks material. All homework will be released at the beginning of the semester. -->
+This course has no final exam; instead, the grade is largely determined through continuous evaluation. You need to **receive more than 55% on each quiz** to be eligible for the final project.
 
-1. Quiz (30%): 3 quizzes in week 4, 9 and 12.  Each homework accounts 10  of the grade and cover 3-5 weeks material, depending on the subject. 
+1. **Labs (0%):** Each lab provides hands-on exercises that connect the concepts covered in the course with practical coding implementations. The first part of each lab is dedicated to students working on the exercises, while the second part is led by the TA, who will address students' questions and discuss common challenges. We strongly encourage students to attend the labs and work through the exercises together, as this will help them learn the course materials more effectively and prepare for the project. **Additional content and concepts covered in the labs will also be included in the quizzes.** We expect students to spend an average 4-6 hours for this course. 
+   
+2. **Quiz (36%):** There are 3 quizzes in weeks 4, 9, and 12. Each quiz accounts for 12% of the grade and covers 3–5 weeks of material, depending on the subject. The exact format of each quiz will be announced during the corresponding lab. The key purpose of the quizzes is to ensure that students have a sufficient understanding of **the materials covered in the course and labs.**
 
-2. Group project (70%): group project report (60%) and presentation (10%). There will be topics of modeling response times, configuring, dependability, scheduling design. There will be an initial proposal in week 6, interim discussion with each team in week 10. The final report will be due in week 13, and 20 minutes presentation in week 9 as well.
-
-
-**All assessment items (homework, and projects reports) have to be submitted via ILIAS.**
-
-
-<!-- ###  5.1. <a name='Homework'></a>Homework
-- Homework 1: due in week 5 
-- Homework 2: due in week 9
-- Homework 3: due in week 12
-
-Students are given additional 48 hours grace period for late submission and will not receive any grade penalty. However, submissions after 48 hours grace period will not be considered and students will loose 25 points of their final grade. 
--->
+3. **Group project (70%):** The group project consists of a project report and a presentation. Students will develop a GAI application and optimize its performance. There will be an initial proposal in week 6, followed by an in-class interim discussion with each team in week 10. The final report will be due in week 14, with a 20-minute presentation in week 14 as well. The grading criteria of the project is described below. 
 
 
-###  5.1. <a name='Groupprojects'></a>Group projects
+
+
+**All assessment items ( project reports) have to be submitted via ILIAS.**
+
+
+
+
+###  6.1. <a name='Groupprojects'></a>Group projects
 <!-- 7 predefined project topics: evaluating the systems of 
 -->
-There are different aspects of performance  on modeling and optimizing the executions of deep neural network jobs. In this project, you will play with benchmarks that emulate the training jobs of deep neural networks on top of Spark platform - one of the most popular platform. You can build a model to predict the performance such jobs, to optimize their response times through resource allocations and scheduling, and to test the dependability of such a cluster against malicious attacks. You will do this project in a group with 1-2 other peers. There are two mandatory but not graded mile stones, i.e., proposal and midterm meeting. Fulfilling them is a must to receive a pass grade.  
+There are different aspects of performance  on modeling and optimizing the executions of deep neural network jobs. In this project, you will play with benchmarks that emulate the training jobs of deep neural networks on top of Spark platform - one of the most popular platform. You can build a model to predict the performance such jobs, to optimize their response times through resource allocations and scheduling, and to test the dependability of such a cluster against malicious attacks. You will do this project in a group with 2-3 other peers. There are two mandatory but not graded mile stones, i.e., proposal and midterm meeting. Fulfilling them is a must to receive a pass grade.  
 
-- Group size: 1-2 students
+- Group size: 2-3 students
 - Schedule: 
   - Initial proposal: week 6
   - Interim meeting: week 10
@@ -113,47 +122,64 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 
 
 
-##  6. <a name='Detailedschedule'></a>Detailed schedule
+##  7. 📅 <a name='Detailedschedule'></a>Detailed schedule
 
 
-**Week**|**Lecture Topic**|**Lab Topic**|**Assignment Due**
-:-----|:-----|:-----|:-----
-Week 1 (Sep 15) | Introduction on Generative AI| No-Lab
-Week 2 (Sep 22) | Diffusion model| Diffusion models (DDPM)
-Week 3 (Sep 29) | VAE and GANs | VAE
-Week 4 (Oct 6) | Introduction to LLM |  Q/A on Lab  | Quiz 1
-Week 5 (Oct 13) | LLM Models and Transformers | Prompt engieering|
-Week 6 (Oct 20) | Model Pretrain - Alignment | Transformers |Project proposal
-Week 7 (Oct 27) | Model Postraining and Reasoning |Prompt engineering| 
-Week 8 (Nov 3 | Model Editing and Merging | Q/A on Lab |
-Week 9 (Nov 10) | Model Evaluation and Robustness  | No Lab | quiz 2
-Week 10 (Nov 17) | DTMC | Job generator | Project midterm
-Week 11 (Nov 24) | CTM| Performance analysis | 
-Week 12 (Dec 1) | Queueing   |  Q/A on Lab |Quiz 3
+**Week**|**Lecture Topic**|**Lab Topic**|
+:-----|:-----|:-----|
+Week 1 (Sep 15) | 1. Introduction of GAI| No-Lab
+Week 2 (Sep 22) | 2. Diffusion model| Diffusion models (DDPM)
+Week 3 (Sep 29) | 3. VAE and GANs | VAE
+Week 4 (Oct 6) | 4. Introduction to LLM |  **Quiz1**
+Week 5 (Oct 13) |5. LLM Models and Transformers | Transformer|
+Week 6 (Oct 20) | 6.Model Pretrain & Alignment | SFT |Project proposal
+Week 7 (Oct 27) | 7. Model Postraining and Reasoning |RLHF| 
+Week 8 (Nov 3 | 8. Model Evaluation and Robustness  | **Quiz 2** |
+Week 9 (Nov 10) | 9. Context Engineering  | Context Engineering |
+Week 10 (Nov 17) | 10. Positional Embedding | Positional Embedding | Project midterm
+Week 11 (Nov 24) | 11. KV Cache| KV Cache | 
+Week 12 (Dec 1) | 12. Test-time Compute  |  **Quiz 3** |
 Week 13 (Dec 9) | Holiday - No class| Holiday   No Lab | 
 Week 14 (Dec 15) | Project presentation | No Lab | Project report and presentation
 
 
 
-##  7. <a name='Relevantreferences'></a>Relevant references 
+## 7. <a name='Relevantreferences'></a>Relevant references
+
+### 7.1 Textbooks and Online Documents
+
+* [Understanding Deep Learning](https://udlbook.github.io/udlbook/) by Simon J. D. Prince
+* [Dive into Deep Learning](https://www.d2l.ai/) by Alex Smola et. al.
+* [Build a Large Language Model (From Scratch)](https://sebastianraschka.com/llms-from-scratch/) by Sebastian Raschka
+* [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+* [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/) by Hugging Face
+* [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/) by Hugging Face
 
 
-###  7.1. <a name='Booksonstatisticalexperimentsandlearning'></a>Statistical and Deep and learning
-- [Design and Analysis of Experiments](http://faculty.business.utsa.edu/manderso/STA4723/readings/Douglas-C.-Montgomery-Design-and-Analysis-of-Experiments-Wiley-2012.pdf) by Douglas Montgomery
-- [Dive into Deep Learning](https://www.d2l.ai/) by Alex Smola et. al.
-- [Deep Learning](https://www.deeplearningbook.org/)
-- [Pattern Recognition and Machine Learning]() by Christopher Bishop 
-- [Introduction to Machine learning](http://www.cs.cmu.edu/~epxing/Class/10701/), Eric Xing at Carnagie Mellon University
-- [Data Mining](http://personal.psu.edu/jol2/course/stat557/), Jia Li at Penn State University
-- [Design of Experiments](https://newonlinecourses.science.psu.edu/stat503/node/5/), Penn State University
+### 7.2 Useful Code Repositories
 
 
 
-###  7.2. <a name='Booksonperformancemodeling'></a>Books on performance modeling
-- Introduction to Probability Models by S. M. Ross, 
-- Quantitative System Performance by E. Lazowska, J. Zahorjan, S. Graham, and K. Sevcik.
-- Capacity Planning and Performance Modeling by D. Menasce, V. Almeida, and L. Dowdy 
-- [Computer System Performance Evaluation](http://www.cse.cuhk.edu.hk/~cslui/csc5420.html) , John C.S. Lui at CUHK
+**Diffusion Models for Different Data Modalities**
+
+* **Images:** [Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239) by Jonathan Ho, Ajay Jain, and Pieter Abbeel
+* **Images:** [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) by Robin Rombach et al.
+* **Images:** [Hugging Face Diffusion Models Course](https://huggingface.co/learn/diffusion-course/) by Hugging Face
+* **Videos:** [Video Diffusion Models](https://arxiv.org/abs/2204.03458) by Jonathan Ho et al.
+* **Videos:** [Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets](https://arxiv.org/abs/2311.15127) by Andreas Blattmann et al.
+* **Tables:** [Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space (TabSyn)](https://openreview.net/forum?id=4Ay23yeuz0) by Hengrui Zhang et al.
+
+
+**Large Language Models**
+
+* [Qwen3](https://github.com/QwenLM/Qwen3) — Official repository for the Qwen3 family of open-weight large language models, including examples for inference, deployment, quantization, and training.
+* [Llama Cookbook](https://github.com/meta-llama/llama-cookbook) — Official practical examples for building applications with Llama models, including inference, fine-tuning, RAG, and end-to-end applications.
+* [Llama 2](https://github.com/meta-llama/llama) — Official Llama 2 inference code and examples.
+* [Hugging Face Transformers](https://github.com/huggingface/transformers) — A general framework for using and training pretrained transformer models, including Llama, Qwen, and many other open models.
+* [Hugging Face TRL](https://github.com/huggingface/trl) — Tools for post-training language models, including supervised fine-tuning (SFT), preference optimization (DPO), and reinforcement learning methods such as GRPO.
+
+
+
 
 
 
