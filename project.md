@@ -49,7 +49,10 @@ The project does not need to introduce a completely new algorithm. A strong proj
 | **Difficulty of Adaptation** | Implements a novel model adaptation and inference-time improvement, supported by solid performance gains. | Combines model adaptation with explicit inference-time optimization (e.g., quantization, pruning, caching). | Adapts an existing model (e.g., fine-tuning, RAG, custom agent pipelines) beyond default usage. | Uses an existing model out-of-the-box without meaningful adaptation (insufficient). | **/10** |
 | **Extensiveness of Evaluation** | Evaluates **4+ datasets** or distinct model variants with comprehensive metrics and benchmark analysis. | Evaluates **3 datasets** or distinct model variants with thorough comparative metrics. | Evaluates **2 datasets** or distinct model variants using basic validation metrics. | Evaluates **1 or 0 datasets**; superficial testing with minimal empirical validation. | **/10** |
 | **Report & Code Repository** | Professional report paired with a well-structured, reproducible code repository and clear README setup. | Clear report and organized repository; code runs with minor setup effort. | Complete report, but repository lacks clear documentation or setup instructions. | Incomplete report or broken, unstructured repository without instructions. | **/10** |
-| **Total** | | | | | **/40** |
+
+## Project Examples
+
+completed by student groups from previous terms during the second or third week of the course. Please note that earlier iterations of this course emphasized Design of Experiments and Queueing Theory, which are not covered in this semester's curriculum. Instead, your main task will be to develop novel Generative AI applications leveraging open-source foundation models. Focus on the sample projects' structure, technical depth, and presentation style rather than their specific theoretical requirements.
 
 
 
