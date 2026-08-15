@@ -22,6 +22,30 @@ All the documents need to be submitted via the ILISAS. Exact due dates are on th
 * 20 min project presentation: 15 %
 * Individual contribution: 20%
 
+
+## Final project report
+
+The **final** group project report should be ** 7-8 pages**.
+Here is the report template. https://www.overleaf.com/latex/templates/icml2025-template/dhxrkcgkvnkt
+ 
+We suggest the following final report structure:
+
+- Motivation and the problem statement
+- Prior art and background
+- The proposed application: model architecture and fine-tuning method
+- The proposed inference acceleration
+- The evaluation results: application quality and run-time performance
+- Conclusions: what can be the future direction
+- References
+
+The final report should also contain a link to a repository (or several) that contain the software you created, the scripts you used to analyze your data, etc.
+
+Submission: every group uploads their intermediate presentation and final group project reports on ILIAS. The reports should be in PDF format.
+
+In addition, your report must also include a figure that graphically depicts a major component of your project (e.g., your approach and how it relates to the application, etc.). Such a summary figure makes your paper much more accessible by providing a visual counterpart to the text. Developing such a concise and clear figure can actually be quite time-consuming.
+
+The final project report is graded in combination with the project interview. The interview will be an academic discussion about the executed project.
+
 ## Project Guideline
 
 <figure style="text-align: center;">
