@@ -25,7 +25,7 @@ All the documents need to be submitted via the ILISAS. Exact due dates are on th
 ## Example of a project
 
 <figure style="text-align: center;">
-  <img src="project-overview.jpg" alt="GAI project timeline" style="max-width: 100%;">
+  <img src="projectimeline.jpeg" alt="GAI project timeline" style="max-width: 100%;">
   <figcaption><strong>Project timeline:</strong> From building a GAI application to adapting, evaluating, and optimizing its performance. Illustration generated with Google Gemini.</figcaption>
 </figure>
 
