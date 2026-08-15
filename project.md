@@ -22,7 +22,7 @@ All the documents need to be submitted via the ILISAS. Exact due dates are on th
 * 20 min project presentation: 15 %
 * Individual contribution: 20%
 
-## Project Guidline
+## Project Guideline
 
 <figure style="text-align: center;">
   <img src="Projectimeline.jpeg" alt="GAI project timeline" style="max-width: 100%;">
