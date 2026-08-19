@@ -1,5 +1,5 @@
 
-:warning: **We are making significant changes to the evaluation of the course, compared to the previous year. The content will be only be finalized by the end of the first week of the semester.**
+:warning: **We are making significant changes to the evaluation of the course, compared to the previous year. The content will only be finalized by the end of the first week of the semester.**
 
 <!-- vscode-markdown-toc -->
 * 1. [Important links](#1-important-links)
@@ -23,7 +23,7 @@
 
 # [MSGAI26] Modeling and Scaling Generative AI Systems <!-- omit in toc -->
 
-This repository contains the materials of the **MSc Modeling and Scaling for Generative AI systems** course running in fall 2026 at UNINE. This is part of BeNeFri Master program.
+This repository contains the materials of the **MSc Modeling and Scaling for Generative AI systems** course running in fall 2026 at UNINE. This is part of BeNeFri Master's program.
 
 
 
@@ -60,14 +60,14 @@ Course topics include
 
 ##  3.👩‍🏫👨‍🏫 <a name='Courseteam'></a>Course team
 
-This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/)  The course team is composed of a number of PhDs  who support the course through guest lectures and project supervision and a TA who focuses on the grading of homework. 
+This course will be primarily taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/)  The course team is composed of a number of PhDs  who support the course through guest lectures and project supervision and a TA who focuses on the grading of homework. 
 
 
 -  [Gert Lek](mailto:gert.lek@unine.ch) (Unine PhD student) 
 -  [Basile Lewandowski](mailto:basile.lewandowski@unine.c) (Unine PhD student)
 
 
-Lydia is the responsible instructors of this course and can be reached at **lydiaychen@ieee.org**.
+Lydia is the responsible instructor of this course and can be reached at **lydiaychen@ieee.org**.
 
 
 
@@ -77,9 +77,9 @@ Lydia is the responsible instructors of this course and can be reached at **lydi
 - LO3. Fine-tune generative models for application-specific tasks and evaluate their performance using appropriate quality and efficiency metrics.
 - LO4. Optimize the inference of GAI applications using techniques such as inference-time compute, KV caching, and positional embeddings, and evaluate the resulting performance on real computing systems.
 
-## 5. ⏱️ <a name='Expecation'></a> Workload and Expectations
+## 5. ⏱️ <a name='Expectation'></a> Workload and Expectations
 
-This course covers many exciting and rapidly evolving topics in AI. As these topics build on a range of existing concepts in machine learning and deep learning, the course can be demanding. Students should expect to spend an average of **4–6 hours per week** on this course, including lectures, labs, and independent study. Students without a solid background in machine learning can still take this course, but should be prepared to make a **significant additional effort to catch up with the required background**. In our experience, students who lack the necessary background may find it challenging to keep up with the course and its hands-on exercises.
+This course covers many exciting and rapidly evolving topics in AI. As these topics build on a range of existing concepts in machine learning and deep learning, the course can be demanding. Students should expect to spend an average of **4–6 hours per week** on this course, including lectures, labs, and independent study. Students without a solid background in machine learning can still take this course, but should be prepared to put in **significant additional effort to catch up with the required background**. In our experience, students who lack the necessary background may find it challenging to keep up with the course and its hands-on exercises.
 
 At the same time, the effort can be highly rewarding. A well-executed project can develop into a successful conference publication, provide a strong foundation for a master's thesis, or serve as a strong basis for an internship. We have close collaborations with industry, and successful projects may provide opportunities to connect with our industry partners. We have several examples of students who have taken their course projects further into publications, theses, and internships, and we are happy to share these examples with the class.
 
@@ -88,18 +88,16 @@ At the same time, the effort can be highly rewarding. A well-executed project ca
 
 This course has no final exam; instead, the grade is largely determined through continuous evaluation. You need to **receive more than 55% on each quiz** to be eligible for the final project.
 
-This course has no final exam; instead, the grade is largely determined through continuous evaluation. You need to **receive more than 55% on each quiz** to be eligible for the final project.
-
-1. **Labs (0%):** Each lab provides hands-on exercises that connect the concepts covered in the course with practical coding implementations. The first part of each lab is dedicated to students working on the exercises, while the second part is led by the TA, who will address students' questions and discuss common challenges. We strongly encourage students to attend the labs and work through the exercises together, as this will help them learn the course materials more effectively and prepare for the project. **Additional content and concepts covered in the labs will also be included in the quizzes.** We expect students to spend an average 4-6 hours for this course. 
+1. **Labs (0%):** Each lab provides hands-on exercises that connect the concepts covered in the course with practical coding implementations. The first part of each lab is dedicated to students working on the exercises, while the second part is led by the TA, who will address students' questions and discuss common challenges. We strongly encourage students to attend the labs and work through the exercises together, as this will help them learn the course materials more effectively and prepare for the project. **Additional content and concepts covered in the labs will also be included in the quizzes.** We expect students to spend an average 4-6 hours per week for this course. 
    
-2. **Quiz (36%):** There are 3 quizzes in weeks 4, 9, and 12. Each quiz accounts for 12% of the grade and covers 3–5 weeks of material, depending on the subject. The exact format of each quiz will be announced during the corresponding lab. The key purpose of the quizzes is to ensure that students have a sufficient understanding of **the materials covered in the course and labs.**
+2. **Quizzes (36%):** There are 3 quizzes in weeks 4, 9, and 12. Each quiz accounts for 12% of the grade and covers 3–5 weeks of material, depending on the subject. The exact format of each quiz will be announced during the corresponding lab. The key purpose of the quizzes is to ensure that students have a sufficient understanding of **the materials covered in the course and labs.**
 
 3. **Group project (70%):** The group project consists of a project report and a presentation. Students will develop a GAI application and optimize its performance. There will be an initial proposal in week 6, followed by an in-class interim discussion with each team in week 10. The final report will be due in week 14, with a 20-minute presentation in week 14 as well. The grading criteria of the project is described below. 
 
 
 
 
-**All assessment items ( project reports) have to be submitted via ILIAS.**
+**All assessment items (project reports) have to be submitted via ILIAS.**
 
 
 
@@ -107,7 +105,9 @@ This course has no final exam; instead, the grade is largely determined through 
 ###  6.1. <a name='Groupprojects'></a>Group projects
 <!-- 7 predefined project topics: evaluating the systems of 
 -->
-There are different aspects of performance  on modeling and optimizing the executions of deep neural network jobs. In this project, you will play with benchmarks that emulate the training jobs of deep neural networks on top of Spark platform - one of the most popular platform. You can build a model to predict the performance such jobs, to optimize their response times through resource allocations and scheduling, and to test the dependability of such a cluster against malicious attacks. You will do this project in a group with 2-3 other peers. There are two mandatory but not graded mile stones, i.e., proposal and midterm meeting. Fulfilling them is a must to receive a pass grade.  
+In this project, you will work in a group of 2–3 students to design, build, and optimize a generative AI application. Your project should address a concrete research question and investigate a measurable trade-off between model quality and system performance. For example, you may study context engineering or RAG, fine-tuning, model selection and routing, inference-time compute, KV-cache management, quantization, batching, or other inference and serving optimizations. You will evaluate your approach using appropriate quality and efficiency metrics, such as task performance, latency, throughput, memory usage, and computational cost.
+
+The project should include a working baseline, at least one modeling or system-level optimization, and an experimental evaluation that demonstrates when and why the proposed approach is effective. There are two mandatory but ungraded milestones: an initial project proposal and an interim meeting. Completing both milestones is required to receive a passing grade for the project.
 
 - Group size: 2-3 students
 - Schedule: 
