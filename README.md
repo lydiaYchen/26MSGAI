@@ -2,14 +2,16 @@
 :warning: **We are making significant changes to the evaluation of the course, compared to the previous year. The content will be only be finalized by the end of the first week of the semester.**
 
 <!-- vscode-markdown-toc -->
-* 1. [Important links](#Importantlinks)
-* 2. [Course description](#Coursedescription)
-* 3. [Course team](#Courseteam)
-* 4. [Learning objectives](#Learningobjectives)
-* 5. [:dart: Grading policy](#dart:Gradingpolicy)
-    * 5.1. [Quizzes](#Quiz)
-    * 5.2. [Group projects](#Groupprojects)
-* 6. [Detailed schedule](#Detailedschedule)
+* 1. [Important links](#1-important-links)
+* 2. [Course description](#2-course-description)
+* 3. [Course team](#3-course-team)
+* 4. [Learning objectives](#4--learning-objectives)
+* 5. [Workload and expectation](#5-️--workload-and-expectations) 
+* 6. [:dart: Grading policy](#6-dart-grading-policy)
+    * 6.1. [Quizzes]()
+    * 6.2. [Group projects]()
+* 7. [Detailed schedule](#7--detailed-schedule)
+* 8. [Relevant references](#8-relevant-references)
 
     
 <!-- vscode-markdown-toc-config
@@ -128,25 +130,25 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 **Week**|**Lecture Topic**|**Lab Topic**|
 :-----|:-----|:-----|
 Week 1 (Sep 15) | 1. Introduction of GAI| No-Lab
-Week 2 (Sep 22) | 2. Diffusion model| Diffusion models (DDPM)
-Week 3 (Sep 29) | 3. VAE and GANs | VAE
-Week 4 (Oct 6) | 4. Introduction to LLM |  **Quiz1**
-Week 5 (Oct 13) |5. LLM Models and Transformers | Transformer|
-Week 6 (Oct 20) | 6.Model Pretrain & Alignment | SFT |Project proposal
-Week 7 (Oct 27) | 7. Model Postraining and Reasoning |RLHF| 
-Week 8 (Nov 3 | 8. Model Evaluation and Robustness  | **Quiz 2** |
+Week 2 (Sep 22) | 2. Diffusion Model| Diffusion Models (DDPM)
+Week 3 (Sep 29) | 3. VAE and Flow Matching | VAE + Flow Matching
+Week 4 (Oct 6) | 4.  LLM Introduction + Pre-train |  **Quiz1**
+Week 5 (Oct 13) |5.  LLM Models and Transformers  | SFT|
+Week 6 (Oct 20) | 6. Reinforcement Learning in LLM |RLHF |
+Week 7 (Oct 27) | 7. LLM Reasoning |Reasoning | 
+Week 8 (Nov 3 | 8. Post training  | **Quiz 2** |
 Week 9 (Nov 10) | 9. Context Engineering  | Context Engineering |
-Week 10 (Nov 17) | 10. Positional Embedding | Positional Embedding | Project midterm
+Week 10 (Nov 17) | 10. Positional Embedding | Positional Embedding |Project midterm
 Week 11 (Nov 24) | 11. KV Cache| KV Cache | 
-Week 12 (Dec 1) | 12. Test-time Compute  |  **Quiz 3** |
-Week 13 (Dec 9) | Holiday - No class| Holiday   No Lab | 
+Week 12 (Dec 1) | 12. Agentic AI  |  **Quiz 3** |
+Week 13 (Dec 9) | Holiday - No class| Holiday -  No Lab | 
 Week 14 (Dec 15) | Project presentation | No Lab | Project report and presentation
 
 
 
-## 7. <a name='Relevantreferences'></a>Relevant references
+## 8. <a name='Relevantreferences'></a>Relevant references
 
-### 7.1 Textbooks and Online Documents
+### 8.1 Textbooks and Online Documents
 
 * [Understanding Deep Learning](https://udlbook.github.io/udlbook/) by Simon J. D. Prince
 * [Dive into Deep Learning](https://www.d2l.ai/) by Alex Smola et. al.
@@ -156,7 +158,7 @@ Week 14 (Dec 15) | Project presentation | No Lab | Project report and presentati
 * [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/) by Hugging Face
 
 
-### 7.2 Useful Code Repositories
+### 8.2 Useful Code Repositories
 
 
 
