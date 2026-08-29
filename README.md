@@ -36,22 +36,35 @@ This repository contains the materials of the **MSc Modeling and Scaling for Gen
 
 ##  2. <a name='Coursedescription'></a>Course description
 
+# 2. Course description
 
-Today's machine learning systems have become the backbone technology of our daily lives. Generative AI (GAI) systems, such as language models and diffusion models, are widely used to generate text, images, videos, and tables. Designing and running GAI systems that meet users’ performance requirements, such as latency and quality constraints, while using computational resources efficiently is challenging. To build effective GAI applications, it is essential to understand the underlying model architectures and how different components contribute to their capabilities and limitations. Equally important is knowing how to provide the right context and instructions to a model, and how to fine-tune models to adapt them to specific applications and tasks. Once a GAI application is developed, its inference process can be further optimized through techniques that improve the speed, efficiency, and quality of generation.
+# 2. Course description
 
-The goal of this course is therefore to provide students with both the foundations and practical skills to build interesting GAI applications and optimize their performance. Through hands-on development and experimentation, students will learn how to select and understand appropriate GAI models, effectively use context, fine-tune models for specific applications, and apply inference-time and system-level optimization techniques.
+Today's artificial intelligence landscape is rapidly shifting from static generative models to autonomous, multi-step agentic systems. Agentic AI systems are capable of reasoning, planning, executing tools, and adapting dynamically to solve complex real-world tasks. However, building and deploying agentic systems that meet high performance, reliability, and safety standards while efficiently managing computational constraints remains a significant technical challenge. To build production-grade agentic applications, it is essential to master both full-stack agent orchestration and the underlying systems engineering—from low-level key-value (KV) cache management to distributed optimization.
 
+An example of real-world of this paradigm is Klarna’s OpenAI-powered AI Assistant. Moving far beyond traditional rule-based chatbots, this agentic system executes dynamic multi-step tasks by integrating directly with live backend payment systems, verifying account histories, and autonomously resolving refunds or payment disputes. In production, the assistant managed 2.3 million customer conversations in its first month alone—performing the workload equivalent of 700 full-time agents while slashing average resolution times from 11 minutes down to under two minutes.
+
+The goal of this course is to provide students with the core foundations, systems-level optimizations, and practical skills required to design, improve, and secure agentic AI systems. Through hands-on architecture design and experimental evaluation, students will learn how to build effective agent harnesses, engineer context dynamically, implement self-correction and self-improving loops, scale training via distributed SGD, and protect systems using modern guardrails, activation steering, and privacy-preserving techniques.
 
 Course topics include
-- Diffusion models
-- Variational Encoders and Generative Adversarial Networks
-- Large Language Models (LLM) and Transformers
-- Supervised Fine-tuning for LLM
-- Reinforcement Learning for LLM
-- Context Engineering
-- Inference-time Compute for LLM
-- KV Cache and Positional Embedding
 
+* **Part I: Building Agentic Systems**
+  * Introduction to Agentic Systems
+  * Agentic Benchmark: tool use and function calling
+  * Harness of Agentic Systems
+  * System and KV Cache
+
+* **Part II: Improving Agentic Systems**
+  * Context Engineering
+  * Self-Correction
+  * Self-Improving
+  * Distributed SGD
+
+* **Part III: Robustness of Agentic Systems**
+  * Self-Evolving
+  * Attacks/Defenses for LLMs
+  * Safety: Guardrails & Activation Steering
+  * Privacy for LLMs
 
 
 
@@ -63,8 +76,8 @@ Course topics include
 This course will be primarily taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/)  The course team is composed of a number of PhDs  who support the course through guest lectures and project supervision and a TA who focuses on the grading of homework. 
 
 
--  [Gert Lek](mailto:gert.lek@unine.ch) (Unine PhD student) 
--  [Basile Lewandowski](mailto:basile.lewandowski@unine.c) (Unine PhD student)
+-  [Giulios Segalini](mailto:guilio.segalini@unine.ch) (Unine PhD student) 
+-  [Abel Malan](mailto:abel.malan@unine.c) (Unine PhD student)
 
 
 Lydia is the responsible instructor of this course and can be reached at **lydiaychen@ieee.org**.
@@ -72,10 +85,13 @@ Lydia is the responsible instructor of this course and can be reached at **lydia
 
 
 ##  4. 🏆 <a name='Learningobjectives'></a>Learning objectives
-- LO1. Understand the architectures, training, and inference of modern generative models, including diffusion models, variational autoencoders, GANs, and large language models.
-- LO2. Develop GAI applications by selecting appropriate models and effectively using context engineering, prompting, and other techniques to adapt models to specific applications.
-- LO3. Fine-tune generative models for application-specific tasks and evaluate their performance using appropriate quality and efficiency metrics.
-- LO4. Optimize the inference of GAI applications using techniques such as inference-time compute, KV caching, and positional embeddings, and evaluate the resulting performance on real computing systems.
+LO1. Understand the core architectures, harnesses, and memory systems of agentic AI, including tool use and KV caching.
+
+LO2. Improve agent performance through context engineering, self-correction, self-improving loops, and distributed SGD.
+
+LO3. Design resilient, self-evolving agents hardened against adversarial attacks, prompt injections, and privacy risks.
+
+LO4. Implement runtime safety mechanisms and operational controls using guardrails, activation steering, and trajectory benchmarks.
 
 ## 5. ⏱️ <a name='Expectation'></a> Workload and Expectations
 
