@@ -36,9 +36,6 @@ This repository contains the materials of the **MSc Modeling and Scaling for Gen
 
 ##  2. <a name='Coursedescription'></a>Course description
 
-# 2. Course description
-
-# 2. Course description
 
 Today's artificial intelligence landscape is rapidly shifting from static generative models to autonomous, multi-step agentic systems. Agentic AI systems are capable of reasoning, planning, executing tools, and adapting dynamically to solve complex real-world tasks. However, building and deploying agentic systems that meet high performance, reliability, and safety standards while efficiently managing computational constraints remains a significant technical challenge. To build production-grade agentic applications, it is essential to master both full-stack agent orchestration and the underlying systems engineering—from low-level key-value (KV) cache management to distributed optimization.
 
@@ -143,22 +140,23 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 ##  7. 📅 <a name='Detailedschedule'></a>Detailed schedule
 
 
-**Week**|**Lecture Topic**|**Lab Topic**|
-:-----|:-----|:-----|
-Week 1 (Sep 15) | 1. Introduction of GAI| No-Lab
-Week 2 (Sep 22) | 2. Diffusion Model| Diffusion Models (DDPM)
-Week 3 (Sep 29) | 3. VAE and Flow Matching | VAE + Flow Matching
-Week 4 (Oct 6) | 4.  LLM Introduction + Pre-train |  **Quiz1**
-Week 5 (Oct 13) |5.  LLM Models and Transformers  | SFT|
-Week 6 (Oct 20) | 6. Reinforcement Learning in LLM |RLHF |
-Week 7 (Oct 27) | 7. LLM Reasoning |Reasoning | 
-Week 8 (Nov 3 | 8. Post training  | **Quiz 2** |
-Week 9 (Nov 10) | 9. Context Engineering  | Context Engineering |
-Week 10 (Nov 17) | 10. Positional Embedding | Positional Embedding |Project midterm
-Week 11 (Nov 24) | 11. KV Cache| KV Cache | 
-Week 12 (Dec 1) | 12. Agentic AI  |  **Quiz 3** |
-Week 13 (Dec 9) | Holiday - No class| Holiday -  No Lab | 
-Week 14 (Dec 15) | Project presentation | No Lab | Project report and presentation
+| **Week** | **Lecture Topic** | **Lab Topic** |
+| :--- | :--- | :--- |
+| Week 1 (Feb 23) | 1. Introduction to Agentic Systems | No-Lab |
+| Week 2 (Mar 2) | 2. Agentic Benchmark: Tool Use and Function Calling | Tool Use & Function Calling Benchmarking |
+| Week 3 (Mar 9) | 3. Harness of Agentic Systems | Agentic Harness Engineering |
+| Week 4 (Mar 16) | 4. System and KV Cache | **Quiz 1** |
+| Week 5 (Mar 23) | 5. Context Engineering | Context Engineering |
+| Week 6 (Mar 30) | Easter Holiday - No class | Easter Holiday - No Lab |
+| Week 7 (Apr 6) | 6. Self-Correction | Self-Correction Loops |
+| Week 8 (Apr 13) | 7. Self-Improving | Self-Improving Systems |
+| Week 9 (Apr 20) | 8. Distributed SGD | **Quiz 2** |
+| Week 10 (Apr 27) | 9. Self-Evolving | Self-Evolving Architectures | Project Midterm |
+| Week 11 (May 4) | 10. Attacks/Defenses for LLMs | Adversarial Attacks & Defenses |
+| Week 12 (May 11) | 11. Safety: Guardrails & Activation Steering | Guardrails & Activation Steering |
+| Week 13 (May 18) | 12. Privacy for LLMs | **Quiz 3** |
+| Week 14 (May 25) |  Project Presentation |  |
+
 
 
 
