@@ -56,7 +56,7 @@ Course topics include
 
 ##  3.👩‍🏫👨‍🏫 <a name='Courseteam'></a>Course team
 
-This course will be primarily taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/)  The course team is composed of a number of PhDs  who support the course through guest lectures and project supervision and a TA who focuses on the grading of homework. 
+This course will be primarily taught by [Prof. Lydia Y Chen](https://lydiaychen.github.io/)  The course team is composed of a number of PhDs  who support the course through guest lectures and project supervision and a TA who focuses on the grading of the quizzes. 
 
 
 -  [Gert Lek](mailto:gert.lek@unine.ch) (Unine PhD student) 
