@@ -31,7 +31,7 @@ This repository contains the materials of the **MSc Modeling and Scaling for Gen
 ##  1. <a name='Importantlinks'></a>Important links
 
 - [Project description](project.md)
-- [Labs and assignments](lab.md)
+- [Labs and exercises](Labs/Instruction.md)
 
 Today's machine learning systems have become the backbone technology of our daily lives. Generative AI (GAI) systems, such as language models and diffusion models, are widely used to generate text, images, videos, and tables. Designing and running GAI systems that meet users’ performance requirements, such as latency and quality constraints, while using computational resources efficiently is challenging. To build effective GAI applications, it is essential to understand the underlying model architectures and how different components contribute to their capabilities and limitations. Equally important is knowing how to provide the right context and instructions to a model, and how to fine-tune models to adapt them to specific applications and tasks. Once a GAI application is developed, its inference process can be further optimized through techniques that improve the speed, efficiency, and quality of generation.
 

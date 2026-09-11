@@ -1,0 +1,20 @@
+# Python 3.11. Install into a separate environment; see Instruction.md.
+torch==2.8.0
+torchvision==0.23.0
+diffusers==0.34.0
+transformers==4.53.2
+tokenizers==0.21.2
+huggingface-hub==0.33.4
+accelerate>=1.8,<2
+safetensors>=0.5,<1
+numpy>=1.26,<3
+pillow>=11,<12
+matplotlib>=3.9,<4
+scikit-learn>=1.5,<2
+seaborn>=0.13,<0.14
+python-dotenv>=1,<2
+sentencepiece>=0.2,<0.3
+protobuf>=3.20,<6
+jupyterlab>=4,<5
+ipykernel>=6,<7
+nbformat>=5.10,<6
