@@ -53,7 +53,7 @@ Run each notebook from top to bottom, with its working directory set to its `Lab
 
 Run the setup and model-loading cells before the session to download the required models and datasets. Work through the numbered exercises, change the requested parameters, and record your observations in Markdown cells.
 
-Lab 1 explores diffusion training and sampling. Lab 2 compares autoencoders and variational autoencoders, examines pretrained latent diffusion, and includes a short flow-matching training experiment. Follow the latent-dimension and random-seed instructions when comparing results.
+Lab 1 explores diffusion training and sampling. Lab 2 compares autoencoders and variational autoencoders, examines pretrained latent diffusion, and includes a short flow-matching training experiment. 
 
 ## Part 2: Large language models
 
