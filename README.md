@@ -75,7 +75,7 @@ Lydia is the responsible instructor of this course and can be reached at **lydia
 
 ## 6. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
 
-This course has no final exam; instead, the grade is largely determined through continuous evaluation. You need to **receive more than 55% on each quiz** to be eligible for the final project.
+This course has no final exam; instead, the grade is largely determined through continuous evaluation.
 
 1. **Labs (0%):** Each lab provides hands-on exercises that connect the concepts covered in the course with practical coding implementations. The first part of each lab is dedicated to students working on the exercises, while the second part is led by the TA, who will address students' questions and discuss common challenges. We strongly encourage students to attend the labs and work through the exercises together, as this will help them learn the course materials more effectively and prepare for the project. **Additional content and concepts covered in the labs will also be included in the quizzes.** We expect students to spend an average 4-6 hours per week for this course. 
    
