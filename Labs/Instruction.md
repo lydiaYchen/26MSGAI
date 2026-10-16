@@ -11,6 +11,7 @@ The notebooks currently available are:
   - [Lab 2: VAE and latent diffusion](Lab%20%232/lab_vae_diffusion_2.ipynb) — AE vs VAE on MNIST, pretrained VAE reconstruction, latent diffusion, and two-dimensional flow matching.
 - Part 2: [Large language models](#part-2-large-language-models)
   - [Lab 3: LLMs, Transformers, and SFT](Lab%20%233/Lab_LLM_transformer_3.ipynb) — generation, chat templates, output probabilities, representations, attention, and supervised fine-tuning.
+  - [Lab 4: RLHF](Lab%20%234/Lab_RLHF_4.ipynb) — SFT vs REINFORCE and GRPO
 
 Later lab topics follow the course schedule; their notebooks will be added separately.
 
@@ -58,6 +59,8 @@ Lab 1 explores diffusion training and sampling. Lab 2 compares autoencoders and 
 ## Part 2: Large language models
 
 Before attending the lab, run the authentication and model-loading cells: model access and downloads may take time.
+
+Lab 4 uses **GPT-2 (124M) in nanoGPT** and a small sentiment classifier as the reward model, so it runs on a CPU (roughly 15–20 minutes) or a small GPU (about a minute). Neither model is gated, so no Hugging Face token is needed. The notebook downloads nanoGPT's `model.py` at a fixed commit and caches a small IMDB subset in `Labs/data`. You implement the REINFORCE loss, the Bradley–Terry preference probability, and GRPO's group-normalised advantages, then compare how much GRPO and SFT change the model.
 
 Lab 3 uses **Gemma-2-2b-it**. Complete the indicated `user_inputs` and attention-code placeholders, then compare the model's outputs and internal representations. The final exercise demonstrates one SFT update with LoRA, followed by 20 updates and a before-and-after comparison on held-out prompts. Its setup cell installs the additional `peft` dependency.
 
